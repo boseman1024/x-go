@@ -1,0 +1,33 @@
+name: x_gogo
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_rounded_date_picker: ^0.3.0
+  permission_handler: ^4.0.0
+  cupertino_icons: ^0.1.2
+  amap_map_fluttify: ^0.14.0
+  sqflite: ^1.2.0
+  android_intent: ^0.3.4+8
+  device_info: ^0.4.1+4
+  sliding_up_panel: ^0.3.6
+  x_amap_track:
+    path: ../x_amap_track/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - raw/
